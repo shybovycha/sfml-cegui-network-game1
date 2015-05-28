@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="RootWin" >
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000586361,0},{0.000781484,0},{0.288867,0},{0.578909,0}}" />
+            <Window Type="TaharezLook/StaticText" Name="Root/HP" >
+                <Property Name="Text" Value="HP: --" />
+                <Property Name="Tooltip" Value="Хопе" />
+                <Property Name="HorzExtent" Value="49" />
+                <Property Name="VertExtent" Value="19.8618" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0288866,0},{0.016092,0},{0.37616,0},{0.0913793,0}}" />
+                <Property Name="InheritsTooltipText" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="Root/MP" >
+                <Property Name="Text" Value="MP: --" />
+                <Property Name="Tooltip" Value="Мэпэ" />
+                <Property Name="HorzExtent" Value="51" />
+                <Property Name="VertExtent" Value="19.8618" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0340286,0},{0.106897,0},{0.380486,0},{0.179885,0}}" />
+                <Property Name="InheritsTooltipText" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="Root/Lvl" >
+                <Property Name="Text" Value="Lvl: --" />
+                <Property Name="Tooltip" Value="Левыл" />
+                <Property Name="HorzExtent" Value="50" />
+                <Property Name="VertExtent" Value="19.8618" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0332726,0},{0.19023,0},{0.37973,0},{0.263219,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="Root/AP" >
+                <Property Name="Text" Value="AP: --" />
+                <Property Name="Tooltip" Value="Отака" />
+                <Property Name="HorzExtent" Value="48" />
+                <Property Name="VertExtent" Value="19.8618" />
+                <Property Name="UnifiedAreaRect" Value="{{0.540282,0},{0.0149428,0},{0.851928,0},{0.0879312,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="Root/AR" >
+                <Property Name="Text" Value="AR: --" />
+                <Property Name="Tooltip" Value="Радеус Отакы" />
+                <Property Name="HorzExtent" Value="49" />
+                <Property Name="VertExtent" Value="19.8618" />
+                <Property Name="UnifiedAreaRect" Value="{{0.54138,0},{0.0972665,0},{0.852209,0},{0.170255,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="Root/WR" >
+                <Property Name="Text" Value="WR: --" />
+                <Property Name="Tooltip" Value="Редеус хатьбы" />
+                <Property Name="HorzExtent" Value="54" />
+                <Property Name="VertExtent" Value="19.8618" />
+                <Property Name="UnifiedAreaRect" Value="{{0.544432,0},{0.186347,0},{0.851874,0},{0.259335,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Root/PB1" >
+                <Property Name="Text" Value="+" />
+                <Property Name="Tooltip" Value="+Макс. Хопэ" />
+                <Property Name="UnifiedAreaRect" Value="{{0.391174,0},{0.0274783,0},{0.511181,0},{0.0770284,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Root/PB2" >
+                <Property Name="Text" Value="+" />
+                <Property Name="Tooltip" Value="+Макс. Мэпэ" />
+                <Property Name="UnifiedAreaRect" Value="{{0.39741,0},{0.111262,0},{0.514029,0},{0.160812,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Root/PB3" >
+                <Property Name="Text" Value="+" />
+                <Property Name="Tooltip" Value="+Подача" />
+                <Property Name="UnifiedAreaRect" Value="{{0.864615,0},{0.0211722,0},{0.984621,0},{0.0707223,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Root/PB4" >
+                <Property Name="Text" Value="+" />
+                <Property Name="Tooltip" Value="+РПодачи" />
+                <Property Name="UnifiedAreaRect" Value="{{0.86719,0},{0.100451,0},{0.987196,0},{0.150001,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Root/PB5" >
+                <Property Name="Text" Value="+" />
+                <Property Name="Tooltip" Value="+РХотьбы" />
+                <Property Name="UnifiedAreaRect" Value="{{0.866377,0},{0.193244,0},{0.986383,0},{0.242794,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Root/HealSpell" >
+                <Property Name="Text" Value="Heal" />
+                <Property Name="Tooltip" Value="Типо хиля" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0375342,0},{0.361712,0},{0.456911,0},{0.433785,0}}" />
+                <Property Name="InheritsTooltipText" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Root/TeleportSpell" >
+                <Property Name="Text" Value="Teleport" />
+                <Property Name="Tooltip" Value="Типо тэпэ" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0392959,0},{0.454955,0},{0.455285,0},{0.531533,0}}" />
+                <Property Name="InheritsTooltipText" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="Root/Descr" >
+                <Property Name="Text" Value="Description: --" />
+                <Property Name="Tooltip" Value="Лога ы =)" />
+                <Property Name="HorzExtent" Value="129" />
+                <Property Name="VertExtent" Value="19.8618" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0441736,0},{0.677476,0},{0.968294,0},{0.977025,0}}" />
+            </Window>
+            <Window Type="TaharezLook/ProgressBar" Name="Root/XPBar" >
+                <Property Name="Tooltip" Value="XP" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0373986,0},{0.276577,0},{0.975067,0},{0.341892,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Root/PB6" >
+                <Property Name="Text" Value="+" />
+                <Property Name="Tooltip" Value="Задротыть хыль" />
+                <Property Name="UnifiedAreaRect" Value="{{0.48806,0},{0.370721,0},{0.604679,0},{0.420271,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Root/PB7" >
+                <Property Name="Text" Value="+" />
+                <Property Name="Tooltip" Value="Задротыть Тэпэ" />
+                <Property Name="UnifiedAreaRect" Value="{{0.487247,0},{0.47027,0},{0.603866,0},{0.51982,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
